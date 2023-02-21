@@ -1,8 +1,8 @@
-# `@zachleat/noop`
+# @zachleat/noop
 
 A minimal ESM package to test module importing in other tools.
 
-Install:
+Install from [npm](https://www.npmjs.com/package/@zachleat/noop):
 
 ```
 npm install @zachleat/noop
