@@ -1,9 +1,9 @@
-function noopSync() {
-
+function noopSync(arg) {
+	return arg;
 }
 
-async function noop() {
-
+async function noop(arg) {
+	return arg;
 }
 
 module.exports = { noop, noopSync };
