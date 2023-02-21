@@ -1,0 +1,17 @@
+{
+  "name": "@zachleat/noop",
+  "version": "1.0.0",
+  "description": "A super simple module to test module importing in other tools.",
+  "type": "module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachleat/noop.git"
+  },
+  "author": {
+    "name": "Zach Leatherman",
+    "email": "zachleatherman@gmail.com",
+    "url": "https://zachleat.com/"
+  },
+  "license": "MIT"
+}
