@@ -8,6 +8,9 @@
     "type": "git",
     "url": "git+https://github.com/zachleat/noop.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": {
     "name": "Zach Leatherman",
     "email": "zachleatherman@gmail.com",
