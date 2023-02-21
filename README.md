@@ -11,7 +11,12 @@ npm install @zachleat/noop
 Usage:
 
 ```js
+// ESM
 import { noop, noopSync } from "@zachleat/noop";
-```
 
-Does not provide a CommonJS version but you _could_ import in CommonJS using `import("@zachleat/noop")`.
+// Dynamic Import
+const { noop, noopSync } = await import("@zachleat/noop");
+
+// CommonJS
+const { noop, noopSync } = require("@zachleat/noop");
+```

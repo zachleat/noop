@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "A minimal module to test importing in other tools.",
   "type": "module",
+  "exports": {
+    "require": "./index.cjs",
+    "import": "./index.js"
+  },
   "main": "index.js",
   "repository": {
     "type": "git",
