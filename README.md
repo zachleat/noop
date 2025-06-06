@@ -19,4 +19,10 @@ const { noop, noopSync } = await import("@zachleat/noop");
 
 // CommonJS
 const { noop, noopSync } = require("@zachleat/noop");
+
+// Explicit ESM
+import { noop, noopSync } from "@zachleat/noop/esm";
+
+// Explicit CommonJS
+const { noop, noopSync } = require("@zachleat/noop/cjs");
 ```

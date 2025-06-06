@@ -5,7 +5,9 @@
   "type": "module",
   "exports": {
     "require": "./index.cjs",
-    "import": "./index.js"
+    "import": "./index.js",
+    "./esm": "./index.js",
+    "./cjs": "./index.cjs"
   },
   "main": "index.js",
   "repository": {
