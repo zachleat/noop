@@ -4,8 +4,10 @@
   "description": "A minimal module to test importing in other tools.",
   "type": "module",
   "exports": {
-    "require": "./index.cjs",
-    "import": "./index.js",
+    ".": {
+      "require": "./index.cjs",
+      "import": "./index.js"
+    },
     "./esm": "./index.js",
     "./cjs": "./index.cjs"
   },
