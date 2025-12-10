@@ -1,6 +1,6 @@
 {
   "name": "@zachleat/noop",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A minimal module to test importing in other tools.",
   "type": "module",
   "exports": {
