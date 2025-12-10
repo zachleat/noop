@@ -1,0 +1,1 @@
+throw new Error("This is the error that @zachleat/noop/error throws if you require or import it. You can use it in your package.json `overrides` for optional dependencies.");

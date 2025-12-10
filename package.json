@@ -9,7 +9,8 @@
       "import": "./index.js"
     },
     "./esm": "./index.js",
-    "./cjs": "./index.cjs"
+    "./cjs": "./index.cjs",
+    "./error": "./error.cjs"
   },
   "main": "index.js",
   "repository": {

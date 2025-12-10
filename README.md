@@ -25,4 +25,8 @@ import { noop, noopSync } from "@zachleat/noop/esm";
 
 // Explicit CommonJS
 const { noop, noopSync } = require("@zachleat/noop/cjs");
+
+// Throws an error on import/require (use for npm `overrides`)
+import "@zachleat/noop/error";
+require("@zachleat/noop/error");
 ```
